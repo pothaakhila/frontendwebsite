@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Includes Bootstrap CSS files for version 4.6.2 and 5.2.3. Bootstrap is a popular front-end framework for designing responsive web pages.-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--Links to Remixicon, a set of open-source icons for use in web projects.-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+<!--Adds AOS styles for animate-on-scroll library, which provides animations when scrolling.-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Links to jQuery, Popper.js, and Bootstrap's JavaScript libraries for interactivity and functionality -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+   <!--Adds CSS for Owl Carousel, a jQuery plugin that creates responsive and customizable carousel sliders.-->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+
+
+</head>
+
+<body>
+  
+
+  <!--Navbar Container part-1-->
+  <nav class="navbar navbar-expand-lg  fixed-top Navbar">
+    <div class="container">
+
+      <a class="navbar brand Navbar_logo" href="#">
+        <img src="https://www.synergyuniversal.in/images/SU%20Logo%20Black%20Transparent.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="ri-menu-1-line icon" style="color: #fff;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  nav_lists">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link " href="#" id="navbardrop" role="button" data-toggle="dropdown">
+              Menu&nbsp;<!--<i class="ri-arrow-down-s-line"></i>--><svg xmlns="http://www.w3.org/2000/svg" width="11"
+                height="16" fill="currentColor" class="bi bi-chevron-down top" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+              </svg>
+            
+            </a>
+            <ul class="dropdown-menu  nav_dropdown" aria-labelledby="navbardrop">
+
+              <li class="nav-item"> <a class="dropdown-item" href="#">About</a></li><br>
+              <li class="nav-item"> <a class="dropdown-item" href="#">Pricing</a></li><br>
+              <li class="nav-item"> <a class="dropdown-item" href="#">FAQs</a></li><br>
+              <li class="nav-item"> <a class="dropdown-item" href="#">Terms & Conditions</a></li><br>
+              <li class="nav-item"> <a class="dropdown-item" href="#">Privacy Policy</a></li><br>
+              <li class="nav-item"><a class="dropdown-item" href="#">Blogs</a></li><br>
+              <li class="nav-item"> <a class="dropdown-item" href="#">Blog Detail Page</a></li><br>
+
+            </ul>
+          
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+
+            <button type="button" class="btn btn-primary">Get Quotes</button>
+          </li>
+          <li>
+            <p><i class="ri-moon-fill"></i></p>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+  </nav>
+<!--Main Section Container part-2-->
+  <div class="main-section" id="main-section">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-5">
+
+        </div>
+
+        <div class="col-md-7 main_sectioncon" data-aos="fade-up" data-aos-duration="2000">
+          <h1>Delivering Superior Services</h1>
+          <h2>IT Solutions.</h2>
+          <div data-aos="fade-up" data-aos-duration="2000">
+
+            <p>You can easily change any design to your own. It is also highly<br> customizable SEO friendly template.
+            </p>
+          </div>
+          <div class="mt-5 sections" data-aos="fade-up" data-aos-duration="2000">
+
+            <i class="ri-twitter-fill a"></i>
+            <i class="ri-facebook-circle-fill a"></i>
+            <i class="ri-linkedin-box-fill a"></i>
+            <i class="ri-instagram-line"></i>
+          </div>
+          <div class="mt-4" data-aos="fade-up" data-aos-duration="2000">
+            <button data-aos="fade-up" data-aos-duration="1000">Get Quote</button>
+
+            <button data-aos="fade-up" data-aos-duration="2000">Get Started</button>
+          </div>
+        </div>
+
+        <!--<div class="col-md-7 main_sectioncon" data-aos="fade-up" data-aos-duration="2000">
+          <h1>Delivering Superior Services</h1>
+          <h2>IT Solutions.</h2>
+          <div data-aos="fade-up" data-aos-duration="2000">
+
+            <p>You can easily change any design to your own. It is also highly<br> customizable SEO friendly template.
+            </p>
+          </div>
+          <div class="mt-5 sections" data-aos="fade-up" data-aos-duration="2000">
+
+            <i class="ri-twitter-fill a"></i>
+            <i class="ri-facebook-circle-fill a"></i>
+            <i class="ri-linkedin-box-fill a"></i>
+            <i class="ri-instagram-line"></i>
+          </div>
+          <div class="mt-4" data-aos="fade-up" data-aos-duration="2000">
+            <button data-aos="fade-up" data-aos-duration="1000">Get Quote</button>
+
+            <button data-aos="fade-up" data-aos-duration="2000">Get Started</button>
+          </div>
+        </div>-->
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+<!--Part-3 useing Application cards-->
+  <div data-aos="fade-up" data-aos-duration="2000">
+    <section class="section" id="services">
+      <div class="container Services_sec">
+        <div class="row mt-3">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="4000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-design.svg" alt="">
+              </div>
+              <div>
+                <h2>Application Design</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="4000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-hosting.svg"
+                  alt="">
+              </div>
+              <div>
+                <h2>Web Hosting</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-social.svg" alt="">
+              </div>
+              <div>
+                <h2>Social Media</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="4000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-seo.svg" alt="">
+              </div>
+              <div>
+                <h2>SEO Optimization</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="4000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-cloud.svg" alt="">
+              </div>
+              <div>
+                <h2>Cloud Server</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card Services_card">
+              <div class="card_item">
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/service-secure.svg" alt="">
+              </div>
+              <div>
+                <h2>Data Secuity</h2>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididuntut labor et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--Part-4 useing Whychoose Us-->
+  <div data-aos="fade-up" data-aos-duration="2000">
+    <section>
+      <div class="container whychoose_sec" id="choose-content">
+        <div class="whychoose_sec_head" data-aos="fade-up" data-aos-duration="2000">
+
+          <h2>Why Choose Us</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ">
+            <div class="whychoose_sec_card" data-aos="fade-up" data-aos-duration="2000">
+
+              <div>
+                <h3>Experience</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-1.svg" />
+              </div>
+
+
+            </div>
+            <div class="whychoose_sec_card" data-aos="fade-up" data-aos-duration="3000">
+
+              <div>
+                <h3>Products</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-2.svg" />
+              </div>
+
+
+            </div>
+            <div class="whychoose_sec_card" data-aos="fade-up" data-aos-duration="2000">
+
+              <div>
+                <h3>Approach</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-3.svg" />
+              </div>
+
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 m-auto" data-aos="fade-up" data-aos-duration="3000">
+            <div class="whychoose_sec_img">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/features.jpg" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+
+            <div class="whychoose_sec_card2" data-aos="fade-up" data-aos-duration="2000">
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-4.svg" />
+              </div>
+
+              <div>
+                <h3>Pricing</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+
+
+            </div>
+            <div class="whychoose_sec_card2" data-aos="fade-up" data-aos-duration="3000">
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-5.svg" />
+              </div>
+              <div>
+                <h3>Delivery</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+
+
+
+            </div>
+            <div class="whychoose_sec_card2" data-aos="fade-up" data-aos-duration="2000">
+
+              <div>
+                <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/icon-6.svg" />
+              </div>
+
+              <div>
+                <h3>Support</h3>
+                <p>Ronesectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua.</p>
+
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<!---Our Portfolio Part-5-->
+  <div data-aos="zoom-in" data-aos-duration="2000">
+    <section>
+      <div class="container mt-3 Services_sec1" id="portfolio-content">
+        <div class="whychoose_sec_head1" data-aos="fade-up" data-aos-duration="2000">
+
+          <h2> Our Portfolio</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="portfolio-filters">
+          <button class="btn btn-primary ">
+            All</button>
+          <button class="btn btn-primary ">
+            App Design</button>
+          <button class="btn btn-primary ">
+            App Development</button>
+          <button class="btn btn-primary ">
+            Branding</button>
+          <button class="btn btn-primary ">
+            It Solutions</button>
+
+        </div>
+
+        <div class="ip">
+          <div class="row mt-3 ">
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div class="card_item ">
+                  <img src="./img/product-1.jpg" />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div clas="card_item ">
+                  <img src="./img/product-2.jpg" />
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div clas="card_item ">
+                  <img src="./img/product-3.jpg" />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div clas="card_item ">
+                  <img src="./img/product-4.jpg" />
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div clas="card_item ">
+                  <img src="./img/product-5.jpg" />
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card Services_card1">
+                <div clas="card_item ">
+                  <img src="./img/product-6.jpg" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+  </div>
+<!--Pricing Plans Part-6-->
+  <section class="price">
+    <div class="container  mt-3 Services" id="pricing-content">
+      <div class="whychoose_sec_head2">
+
+        <h2> Pricing Plans</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container  mt-3 Services" id="pricing-content">
+    <div class="row mt-3">
+      <div class="col-lg-4">
+        <div class="card Services_card text-center">
+          <div class="title">
+            <h2 class="title1">Basic</h2>
+
+          </div>
+          <div class="price">
+            <h4 class="sup1">
+              <sup>$</sup>
+              25
+            </h4>
+
+          </div>
+          <div class="option">
+            <ul>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited GB Space
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                30 Domain Names
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free SSL
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Daily Backup
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Templates
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Email
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                10 Databases
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited Email Address
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Live Support
+              </li>
+
+              <button class="btn btn-primary btn1 ">
+                Order Now</button>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card Services_card text-center">
+          <div class="title">
+            <h2 class="title1">Standard</h2>
+
+          </div>
+          <div class="price">
+            <h4 class="sup1">
+              <sup>$</sup>
+              50
+            </h4>
+
+          </div>
+          <div class="option">
+            <ul>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited GB Space
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                30 Domain Names
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free SSL
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Daily Backup
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Templates
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Email
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                10 Databases
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited Email Address
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Live Support
+              </li>
+
+              <button class="btn btn-primary btn1 ">
+                Order Now</button>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card Services_card text-center">
+          <div class="title">
+            <h2 class="title1">Premium</h2>
+
+          </div>
+          <div class="price">
+            <h4 class="sup1">
+              <sup>$</sup>
+              100
+            </h4>
+
+          </div>
+          <div class="option">
+            <ul>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited GB Space
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                30 Domain Names
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free SSL
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Daily Backup
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Templates
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Free Email
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                10 Databases
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Unlimited Email Address
+              </li>
+              <li><i class="ri-checkbox-circle-line"></i>
+                Live Support
+              </li>
+
+              <button class="btn btn-primary btn1 ">
+                Order Now</button>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </section>
+
+<!--Testimonials Part-7-->
+  <section id="testimonials" class="testimonials">
+    <div class="container mt-3 Services_sec1" id="testimonal-content">
+      <div class="whychoose_sec_head1" data-aos="fade-up" data-aos-duration="2000">
+        <h2> Testimonials</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <!--    <div class="container  aos-init aos-animate  Services_sec"  data-aos="zoom-out">
+      <div data-aos="zoom-in" data-aos-duration="1500">
+        <div class="whychoose_sec_head2">
+
+          <h2> Testimonials</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>-->
+     
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    </div>
+    </div>
+  </section>
+  <section class="testimonial" >
+    <div class="container " id="testimonal-content">
+    <div class="row">
+      <!--this is the card item i need to smooth automatically scroll-->
+      <div class="col-2 owl-carousel owl-theme mt-2 " id="owl-carousel5">
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-1.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam.
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-2.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam."
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-4.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam."
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-3.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam."
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-2.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam."
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-1.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam."
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+
+
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-4.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam.
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-2.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam.
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-3.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam.
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+        <div class="card Services_card">
+          <div class="item cli_caro_img">
+
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/testimonials/testimonial-4.jpg"
+              class="testimonial-img">
+          </div>
+          <div class="testimonial-item">
+            <h3>Jhone Doe</h3>
+            <h4>CFO</h4>
+          </div>
+          <div class="stars">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+
+
+          </div>
+          <p>
+            <i class="ri-double-quotes-l"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam,
+            ultricies eget id, aliquam eget nibh et. Maecen alquam.
+            <i class="ri-double-quotes-r"></i>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--Testimonials Part-7-->
+
+  <!--contact-banner Happy client-232 Part-8-->
+  <section class="contact-banner">
+    <div class=" container banner" id="counter-content">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="stats-item d-flex flex-column align-items-cente">
+            <div class="icon circle">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/happy-clients.svg" alt="" />
+            </div>
+
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0"
+              class="purecounter">232</span>
+
+
+            <span class="sp">Happy&nbsp;Clients</span>
+
+            <p>
+              consequuntur&nbsp;quae&nbsp;diredo
+
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <div class="stats-item d-flex flex-column align-items-cente">
+            <div class="icon circle">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/complete-projects.svg"
+                alt="" />
+            </div>
+
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0"
+              class="purecounter">521</span>
+
+
+            <span class="sp1">Completed&nbsp;Projects</span>
+
+            <p>
+              adipisci&nbsp;atque&nbsp;quia&nbsp;aut
+
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="stats-item d-flex flex-column align-items-cente">
+            <div class="icon circle">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/icons/hours-support.svg" alt="" />
+            </div>
+
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0"
+              class="purecounter">453</span>
+
+
+            <span class="sp1">Hours&nbsp;Of&nbsp;Support</span>
+
+            <p>
+              out&nbsp;commodi&nbsp;quaerat
+
+            </p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+  <!--Part-9 company logos smooth scrolling-->
+
+  <section id="logosection">
+    <div class="container company" data-aos="zoom-out" data-aos-duration="3000">
+        <div class="company-logo">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-6.png" alt="logo1">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-7.png" alt="logo2">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-8.png" alt="logo3">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-1.png" alt="logo4">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-2.png" alt="logo5">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-3.png" alt="logo6">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-4.png" alt="logo7">
+            <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-5.png" alt="logo8">
+        </div>
+        <div class="company-logo">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-6.png" alt="logo9">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-7.png" alt="logo10">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-8.png" alt="logo11">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-1.png" alt="logo12">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-2.png" alt="logo13">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-3.png" alt="logo14">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-4.png" alt="logo15">
+          <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/clients/client-5.png" alt="logo16">
+      </div>
+       
+    </div>
+</section>
+
+
+
+
+
+
+
+  <!--Team Part-10-->
+
+ <section id="team">
+  <div class="container" id="team-content">
+      <div class="title-box" data-aos="fade-up" data-aos-duration="3000">
+          <h2 class="text-center">Team</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-duration="3000">
+          <div class="col-12 col-md-6 col-xl-3">
+              <div class="team-card">
+                  <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/team/team-1.jpg" alt="team-1" class="team-member-image">
+                  <h3 class="name">Jhone Bi</h3>
+                  <p class="role">Application Manager</p>
+                  <div class="team-member-social-profiles-box">
+                    <ul>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-twitter"> </i> </a>
+                      </li>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+        
+                    </a>
+                  </li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+              <div class="team-card">
+                  <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/team/team-2.jpg" alt="team-2" class="team-member-image">
+                  <h3 class="name">Sani Awesome</h3>
+                  <p class="role">Social Media</p>
+                  <div class="team-member-social-profiles-box">
+                    <ul>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-twitter"> </i> </a>
+                      </li>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+        
+                    </a>
+                  </li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+              <div class="team-card">
+                  <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/team/team-3.jpg" alt="team-3" class="team-member-image">
+                  <h3 class="name">Andrio Willi</h3>
+                  <p class="role">Content Writer</p>
+                  <div class="team-member-social-profiles-box">
+                    <ul>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-twitter"> </i> </a>
+                      </li>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+        
+                    </a>
+                  </li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+              <div class="team-card">
+                  <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/team/team-4.jpg" alt="team-4" class="team-member-image">
+                  <h3 class="name">Afa Jonson</h3>
+                  <p class="role">Business Manager</p>
+                  <div class="team-member-social-profiles-box">
+                    <ul>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-twitter"> </i> </a>
+                      </li>
+                      <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+        
+                    </a>
+                  </li>
+                  <li class="social-media-list-item">
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+        
+                    </a>
+                  </li>
+                  </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--FAQ's useing collapse Part-11-->
+  <section id="faq" class="faq">
+    <div class="container aos-init aos-animate" data-aos="fade-up" id="faq-content">
+      <div class="section-header">
+        <h2>FAQ's</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-12">
+          <div class="accordion accordion-flush aos-init aos-animate" id="faqlist" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="accordion-item">
+              <h3 class="accordion-header " id="faq-heading-1">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq-content-1" aria-expanded="true" aria-controls="faq-content-1">
+                  <span class="num"><i class="bi bi-arrow-right-circle-fill">
+
+                    </i></span>
+                  What is web domain and hosting?
+                </button>
+              </h3>
+              <div id="faq-content-1" class="accordion-collapse collapse show" aria-labelledby="faq-heading-1"
+                data-bs-parent="#faqlist" style>
+                <div class="accordion-body">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                  labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                  exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+                  autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq-content-2" aria-expanded="false">
+                  <span class="num"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                  Which server is best for websites linux or windows?
+                </button>
+              </h3>
+              <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                  labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                  exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+                  autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq-content-3" aria-expanded="false">
+                  <span class="num"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                  Google cloud or Amazon server which one is best and fast?
+                </button>
+              </h3>
+              <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                  labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                  exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+                  autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq-content-4" aria-expanded="false">
+                  <span class="num"><i class="bi bi-arrow-right-circle-fill"></i></span>
+                  Why Organic SEO is important for all businesses?
+                </button>
+              </h3>
+              <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                  labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                  exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+                  autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!--Collapse scrolling part to activate using js-->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var accordionElementList = [].slice.call(document.querySelectorAll('.accordion'))
+      var accordionList = accordionElementList.map(function (accordionE1) {
+        return new bootstrap.Collapse(accordionE1)
+      })
+
+    })
+
+  </script>
+<!--Let's Discuss your Projects Part-12-->
+  <section class="contact-banner">
+    <div class="container text-center aos-init aos-animate" data-aos="zoom-out" id="call-to-action-content">
+      <div class="row gy-4">
+        <div class="col-lg-12">
+          <h3>Let's Discuss your Projects</h3>
+          <p>We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your
+            project needs with our team, we will get back asap</p>
+          <button>Conatct Us</button>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!--Blogs Part-13-->
+  <section id="recent-posts" class="recent-posts sections-bg">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="section-header">
+        <h2>Blogs</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <!--gy-4 it will give gap card to card-->
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <article>
+            <div class="post-img">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/blog/blog-1.jpg" alt=""
+                class="img-fluid">
+            </div>
+            <p class="post-category">Domain &amp; Hosting</p>
+            <h2 class="title">
+              <a href="blog-details.html">How to host website on any hosting provider?</a>
+            </h2>
+            <div class="d-flex align-items-center">
+              <div class="post-meta">
+                <p class="post-author">William Bla</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">Feb 1, 2022</time>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4">
+          <article>
+            <div class="post-img">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/blog/blog-2.jpg" alt=""
+                class="img-fluid">
+            </div>
+            <p class="post-category">Advertisement</p>
+            <h2 class="title">
+              <a href="blog-details.html">How to create add on google adwords?</a>
+            </h2>
+            <div class="d-flex align-items-center">
+              <div class="post-meta">
+                <p class="post-author">Jobi Ret</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">Oct 5, 2022</time>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div><!-- End post list item -->
+
+        <div class="col-lg-4">
+          <article>
+            <div class="post-img">
+              <img src="https://zrtechsolutions.com/demo/html/technoit/assets/images/blog/blog-3.jpg" alt=""
+                class="img-fluid">
+            </div>
+            <p class="post-category">Marketing</p>
+            <h2 class="title">
+              <a href="blog-details.html">What is digital marketing and why is important?</a>
+            </h2>
+            <div class="d-flex align-items-center">
+              <div class="post-meta">
+                <p class="post-author">Main Dow</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">Dec 22, 2022</time>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--Contact Us Part-14-->
+  <div id="contact" class="contact-section section">
+    <div class="section-header0">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="container"  id="contact-us-content">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-right">
+          <div class="contact-information-box-3">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="single-contact-info-box">
+                  <div class="contact-info">
+                    <h6>Address:</h6>
+                    <p>11 West Town</p>
+                    <p>PBo 12345, United States</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="single-contact-info-box">
+                  <div class="contact-info">
+                    <h6>Phone:</h6>
+                    <p>+1 1234 56 789</p>
+                    <p>+1 1234 56 780</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="single-contact-info-box">
+                  <div class="contact-info">
+                    <h6>Email:</h6>
+                    <p>info@example.com</p>
+                    <p>email@example.com</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-8 col-md-12 aos-init" data-aos="fade-left"  id="request-info-box">
+          <div class="contact-form-box contact-form contact-form-3">
+            <div class="form-container-box">
+              <form class="contact-form form" id="ajax-contact" method="post" novalidate="true">
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group form-input-box" id="name-email-box">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name*"
+                          required="required" data-error="Name is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group form-input-box" id="name-email-boxs">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email*"
+                          required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group form-input-box">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject"
+                          required="required">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group form-input-box">
+                        <textarea class="form-control" id="message" name="message" rows="7"
+                          placeholder="Write Your Message*" required="required" data-error="Please, leave us a message."
+                          data-gramm="false" wt-ignore-input="true"></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" data-text="Send Message" class="disabled">Send Message</button>
+                    </div>
+                    <div class="messages">
+                      <div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> Thank
+                        You! your message has been sent. </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <!--Footer Part-15-->
+  <footer id="footer" class="footer-section ">
+
+    <div class=" container banner pt-5 pb-5" id="footer-content">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="https://zrtechsolutions.com/demo/html/technoit/index.html"
+                  class="logo d-flex align-items-center">
+                  <img src="https://www.synergyuniversal.in/images/SU%20Logo%20Black%20Transparent.png" alt="logo">
+                </a>
+              </div>
+              <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
+                  tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#" class="twitter">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="facebook">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="linkedin">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+            <div class="service-widget footer-widget">
+              <div class="footer-widget-heading1">
+                <h3>Services</h3>
+              </div>
+              <ul class="list">
+                <li>
+                  <a href="#" >Web Design</a>
+                </li>
+                <li>
+                  <a href="#">App Development</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Cloud Services</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Domain andHosting</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Seo Optimization</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Social Media</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+            <div class="service-widget footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Information</h3>
+              </div>
+              <ul class="list">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Team</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Portfolio</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">FAQs</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Team</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Blogs</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Blog Details</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Coming Soon</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="https://zrtechsolutions.com/demo/html/technoit/services.html">Privacy Policy</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+            <div class="service-widget footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Contacts</h3>
+              </div>
+              <ul class="list">
+                <li>
+                  <i class="bi bi-geo-alt-fill mr-15"></i>
+                  <a href="#"> 101 West Town , PBO 12345, United States</a>
+                </li>
+                <li>
+                  <i class="bi bi-telephone-inbound-fill mr-15"></i>
+                  <a href="#"> +1 1234 56 789</a>
+                </li>
+                <li>
+                  <i class="bi bi-envelope-fill mr-15"></i>
+                  <a href="#"> contact@example.com</a>
+                </li>
+              </ul>
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Newsletter</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don't miss to subscribe to our new feeds, kindly fill the form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#" id="but">
+                    <input type="text" placeholder="Email Address">
+                    <button >
+
+                      <i class="ri-telegram-fill"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-left text-lg-left">
+            <div class="copyright-text">
+              <p id="designed-by">
+                Technoit © 2023 - Designed by
+                <a href="#">zr Themes</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </footer>
+
+
+  <!-- Owl Carousal Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!--navbar scroll script-->
+  <script>
+    window.addEventListener("scroll",function(){
+      const navbar = document.querySelector(".Navbar");
+      if(window.scrollY > 50){
+      navbar.classList.add("navbar-scrolled");
+
+      }
+      else{
+        navbar.classList.remove("navbar-scrolled");
+      }
+    });
+  </script>
+  
+    <!--navbar scroll script-->
+
+
+    <!--Carousal smooth scroll -->
+  <script type="text/javascript">
+    $("#owl-carousel5").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      smartSpeed: 1000,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  </script>
+
+  <script type="text/javascript">
+    $("#owl-carousel6").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      smartSpeed: 1000,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 5,
+        },
+      },
+    });
+  </script>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
